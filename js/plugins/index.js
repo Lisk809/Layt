@@ -1,5 +1,5 @@
-exports.onMounted=(event)=>{
-  event.on("message", (event)=>{
-    console.log("消息来啦")
-  })
-}
+exports.onMounted = (event) => {
+  event.on("message", (event) => {
+    console.log("消息来啦");
+  });
+};
