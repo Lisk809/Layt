@@ -1,6 +1,0 @@
-const {Event} = require("./event.js")
-exports.login=function login(options){
-    const {Bot} = require("./bot.js")
-    const bot=new Bot(options.url)
-    new Event(options.port, bot)
-}
